@@ -13,8 +13,7 @@ parser.add_argument('--inputFile', '-i', default='/Users/ryanwanless/Documents/B
 #input file, have default input
 #open file
 
-#use rstrip
-#append that .split to a list
+
 
 args = parser.parse_args()
 
@@ -114,7 +113,7 @@ in_fh.close()
 
 '''plot the histograms in the side and top panels'''
 
-#bins = range(float(0,15,0.25))
+
 bins = np.arange(0,16,0.5)
 
 xhisto,bins = np.histogram(yvalues,bins)
@@ -154,15 +153,7 @@ mainpanel1.plot(xvalues,yvalues,
     alpha=0.05,
     )
 
-#for the top pannel its this but flippe bottom, left, and height, width
-#also xvalues
 
-
-#
-#divide by that number and then multiply by that number
-
-#the value is the count (each square is a 2d bin)
-#each bin has the cound of data that falls in the bin
 
 
 

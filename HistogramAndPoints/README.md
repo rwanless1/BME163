@@ -4,7 +4,7 @@ to use programe used argparser
 
 input file data
 
--i 'BME163_Input-Data.txt
+-i 'BME163_Input-Data.txt'
 
 Output to save figure 
 

@@ -10,8 +10,8 @@ plt.style.use('BME163')
 parser = argparse.ArgumentParser()
 '''Adds parser argumentation'''
 parser.add_argument('--outputFile','-o',default='Wanless_Ryan_BME163_Assignment_Week3.png',type=str,action='store',help='output file goes here')
-parser.add_argument('--cellFile', '-c', default='/Users/ryanwanless/Documents/Bme163/BME163_Input_Data_Week3.celltype.tsv',type=str,action='store', help = 'input file here')
-parser.add_argument('--positionFile', '-p', default='/Users/ryanwanless/Documents/Bme163/BME163_Input_Data_Week3.position.tsv',type=str,action='store', help = 'input file here')
+parser.add_argument('--cellFile', '-c', default='/Users/ryanwanless/Documents/Bme163/BME163_Input_Data_Week3.celltype.tsv',type=str,action='store', help = 'input cell file here')
+parser.add_argument('--positionFile', '-p', default='/Users/ryanwanless/Documents/Bme163/BME163_Input_Data_Week3.position.tsv',type=str,action='store', help = 'input position file here')
 args = parser.parse_args()
 
 outFile = args.outputFile

@@ -203,10 +203,10 @@ for xpos, dictionary in enumerate(height5sorted):
 
         ycord += height
 
-#print (height3sorted)
 
 
-        #height3list =
+
+        
 
 
 plt.savefig(outFile, dpi=600)

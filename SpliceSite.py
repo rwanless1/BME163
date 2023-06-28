@@ -11,11 +11,11 @@ parser = argparse.ArgumentParser()
 
 '''Adds parser argumentation'''
 parser.add_argument('--outputFile','-o',default='Wanless_Ryan_BME163_Assignment_Week5.png',type=str,action='store',help='output file goes here')
-parser.add_argument('--Splice_Seq', '-s', default='/Users/ryanwanless/Documents/Bme163/Splice_Sequences.fasta',type=str,action='store', help = 'input file here')
-parser.add_argument('--A_png', '-A', default='/Users/ryanwanless/Documents/Bme163/A.png',type=str,action='store', help = 'input file here')
-parser.add_argument('--T_png', '-T', default='/Users/ryanwanless/Documents/Bme163/T.png',type=str,action='store', help = 'input file here')
-parser.add_argument('--C_png', '-C', default='/Users/ryanwanless/Documents/Bme163/C.png',type=str,action='store', help = 'input file here')
-parser.add_argument('--G_png', '-G', default='/Users/ryanwanless/Documents/Bme163/G.png',type=str,action='store', help = 'input file here')
+parser.add_argument('--Splice_Seq', '-s', default='/Users/ryanwanless/Documents/Bme163/Splice_Sequences.fasta',type=str,action='store', help = 'input splice sequence file here')
+parser.add_argument('--A_png', '-A', default='/Users/ryanwanless/Documents/Bme163/A.png',type=str,action='store', help = 'input A file here')
+parser.add_argument('--T_png', '-T', default='/Users/ryanwanless/Documents/Bme163/T.png',type=str,action='store', help = 'input T file here')
+parser.add_argument('--C_png', '-C', default='/Users/ryanwanless/Documents/Bme163/C.png',type=str,action='store', help = 'input C file here')
+parser.add_argument('--G_png', '-G', default='/Users/ryanwanless/Documents/Bme163/G.png',type=str,action='store', help = 'input G file here')
 args = parser.parse_args()
 
 outFile = args.outputFile

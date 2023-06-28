@@ -2,4 +2,4 @@ These programs are data analysis python programs used for high throughput Bioinf
 
 These programs all use numpy and matplot Lib
 
-The figure is saved as BME163Heat 
+All figures use a stylesheet called 'BME163' 

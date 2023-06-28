@@ -9,9 +9,9 @@ parser = argparse.ArgumentParser()
 
 '''Adds parser argumentation'''
 parser.add_argument('--outputFile','-o',default='Wanless_Ryan_BME163_Assignment_Week4.png',type=str,action='store',help='output file goes here')
-parser.add_argument('--identFile', '-i', default='/Users/ryanwanless/Documents/Bme163/BME163_Input_Data_4.ident',type=str,action='store', help = 'input file here')
-parser.add_argument('--covFile', '-c', default='/Users/ryanwanless/Documents/Bme163/BME163_Input_Data_4.cov',type=str,action='store', help = 'input file here')
-parser.add_argument('--qualsFile', '-q', default='/Users/ryanwanless/Documents/Bme163/BME163_Input_Data_4.quals',type=str,action='store', help = 'input file here')
+parser.add_argument('--identFile', '-i', default='/Users/ryanwanless/Documents/Bme163/BME163_Input_Data_4.ident',type=str,action='store', help = 'input identity file here')
+parser.add_argument('--covFile', '-c', default='/Users/ryanwanless/Documents/Bme163/BME163_Input_Data_4.cov',type=str,action='store', help = 'input coverage file here')
+parser.add_argument('--qualsFile', '-q', default='/Users/ryanwanless/Documents/Bme163/BME163_Input_Data_4.quals',type=str,action='store', help = 'input quality file here')
 
 args = parser.parse_args()
 

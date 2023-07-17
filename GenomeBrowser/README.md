@@ -9,7 +9,7 @@ input:
 
 -i 'BME163_Input_Data_6.psl' 
 
--c 'gencode.vM12.annotation.gtf'
+-g 'gencode.vM12.annotation.gtf'
 
 output: 
 
